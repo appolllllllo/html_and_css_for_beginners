@@ -1,0 +1,17 @@
+div {
+position: relative;
+background-color: #68a;
+width: 113px;
+height: 113px;
+margin: 10px;
+}
+p {
+position: absolute;
+margin: 0;
+background-color: #2ff;
+width: 30%;
+height: 30%;
+left:50%;
+top:50%;
+transform: translate(-50%, -50%);
+}
