@@ -1,0 +1,79 @@
+.outer {
+   width: 500px;
+  height: calc(500px / 2.5);
+  background-color: #bbccbb;
+  padding: calc(500px / 2.5 / 20);
+}
+
+.block1 {
+  position: absolute;
+  left: 50%;
+  top: 8%;
+  transform: translate(-50%, 0);    
+  background-size: 80%;
+  background-position: top center;
+  background-repeat: no-repeat;
+  border-radius:50%;
+  background-image: url(https://ie.wampi.ru/2023/10/08/icons8-illuminati-100.png);
+    height: 50px;
+    width: 50px;
+    background-color: #bbccbb;
+    border: 3px solid #000000;
+}
+
+.block2 {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0);  
+  z-index: -1;
+  box-shadow: 0 0 2px 1px #bbccbb;
+    width: 500px;
+    height: calc(500px / 2.5);
+    background-color: hsl(160,90%,26%);
+}
+
+.block3 {
+  position: absolute;
+  left: 14%;
+  top: 50%;
+  transform: translate(0, -50%);
+  border-radius: 50%; 
+  background-image: url(https://img.icons8.com/external-vitaliy-gorbachev-lineal-vitaly-gorbachev/100/000000/external-benjamin-franklin-4th-july-vitaliy-gorbachev-lineal-vitaly-gorbachev.png);
+  background-size: cover;
+  background-position: center center;  
+  z-index: 1;
+   height: 100px;
+    width: 100px;
+    background-color: #bbccbb;
+}
+
+.block4 {
+  position: absolute;
+  right: 14%;
+  top: 50%;
+  transform: translate(0, -50%);
+  border-radius: 50%; 
+  background-image: url(https://img.icons8.com/ios/100/us-dollar-circled--v1.png);
+  background-size: cover;
+  background-position: center center;  
+  z-index: 1;
+    height: calc(500px / 2.5 / 2);
+    width: calc(500px / 2.5 / 2);
+    background-color: #bbccbb;
+}
+
+.block5 {
+  position: absolute;
+  left: 50%;
+  top: 55%;
+  transform: translate(-50%, -50%);
+  color: #222;  
+  font-size: 3em;
+  font-family:'Rubik Mono One', sans-serif;;
+  text-align: center;
+  background-size: cover;
+  background-position: center center;  
+  z-index: -1;
+    height: calc(500px / 2.5 / 2 / 2);
+    background-color: #bbccbb;
+}
