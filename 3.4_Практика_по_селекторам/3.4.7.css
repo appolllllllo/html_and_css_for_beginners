@@ -1,0 +1,44 @@
+div {
+    border: 1px solid #0003;
+    display: inline-block;
+    padding: 20px 10px;
+    background-color: LightCyan;
+    transition: .4s;
+}
+
+div:hover {
+    cursor: pointer;
+    background-color: Teal;
+}
+
+.grey {
+    background-color: DarkSlateGray;
+    color: white;
+}
+
+#pad {
+    padding: 5px 10px;
+}
+
+#mediumred {
+    color: MediumVioletRed;
+}
+
+.red:hover {
+    background-color: red;
+    color: GreenYellow;
+}
+
+.blue {
+    color: blue;
+    background-color: white;
+}
+
+.pink {
+    padding: 10px;
+    background-color: DeepPink;
+}
+
+.white:hover {
+    color: white;
+}
