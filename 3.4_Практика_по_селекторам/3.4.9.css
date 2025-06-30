@@ -1,0 +1,12 @@
+body {
+    font-family: 'Cambria';
+    background-color: Cornsilk;
+}
+
+h2 {
+    text-transform: uppercase;
+}
+
+p::first-line {
+    color: red;
+}
