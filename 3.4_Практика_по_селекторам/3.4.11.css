@@ -1,0 +1,33 @@
+* {
+    margin: 0
+}
+
+img {
+    max-width: 100%
+}
+
+body {
+    background-color: #5015;
+}
+
+ul {
+    text-align: center;
+    font-size: 32px;
+}
+
+li {
+    display: inline-block;
+    font-family: 'Montserrat';
+    list-style-type: none;
+    margin: 30px;
+    color: #222;
+}
+
+li:hover {
+    color: #fff;
+    cursor: pointer;
+}
+
+li:active {
+    color: #f002;
+}
