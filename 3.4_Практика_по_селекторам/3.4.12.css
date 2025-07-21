@@ -1,0 +1,23 @@
+input {
+  margin: 10px;
+  border: 1px solid #080;  
+  height: 1.5em;
+}
+
+[disabled] {
+  background-color: #3005;
+}
+
+input::placeholder {
+  color: #250b
+}
+
+[type='text'] {
+  background-color: #afd8;
+}
+
+[type='password'] {
+  background-color: #aac;
+  color: white;
+  border: 1px solid #555;
+}
