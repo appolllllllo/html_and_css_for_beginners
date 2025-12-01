@@ -1,0 +1,41 @@
+.item1 {
+    background-color: hsl(330,2%,22%); 
+    width: 55vmin;
+    height: 30vmin;
+    margin: auto;
+    margin-top: 5vmin;
+    margin-bottom: 2vmin;
+    box-shadow: 0 0 1vmin 1vmin hsl(330,2%,22%);
+}
+
+.item2 {
+    background-color: hsl(11,84%,42%);
+    width: 55vmin;
+    height: 15vmin;
+    margin: auto;
+    margin-bottom: 2vmin;
+    box-shadow: 0 0 1vmin 1vmin hsl(11,84%,42%);
+   
+}
+.item3 {
+    background-color: hsl(11,24%,42%);
+    width: 55vmin;
+    height: 30vmin;
+    margin: auto;
+    box-shadow: 0 0 1vmin 1vmin hsl(11,24%,42%);
+}
+
+.item4 {
+    width: 60vmin;
+    height: 90vmin;
+    margin-top: 3vmin;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+    top: 0;  
+    z-index: -1;
+    background-color: hsl(33,47%,81%);
+    margin: auto;
+    box-shadow: 2vmin 2vmin 2vmin 1vmin black;
+  
+}
