@@ -1,0 +1,18 @@
+body {
+    text-align: center;
+    font-size: 2em;
+    background-color: black;
+    color: #fb8;
+}
+
+.first {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.second {
+    font-family: 'Book Antiqua' , serif;
+}
+
+.third {
+    font-family: Impact, sans-serif;
+}

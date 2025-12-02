@@ -1,0 +1,101 @@
+body {
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    font-variant: all-small-caps;
+    font-family: "Open sans", sans-serif;
+    font-size: 1.3em;
+}
+
+.menu {
+    display: flex;
+    text-align: center;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    background-color: #278;
+}
+
+.sub-button {
+    padding: 20px 0;
+    margin: 0;
+    background-color: #fee;
+    cursor: pointer;
+}
+
+.trigger-but {
+    position: relative;
+}
+
+.sub-menu {
+    position: absolute;
+    width: 100vw;
+    left: -20vw;
+    list-style-type: none;
+    margin-top: 20px;
+    display: none;
+    background-color: #fee;
+}
+
+.button {
+    background-color: #fee;
+    width: 20%;
+    padding: 20px 0;
+    cursor: pointer;
+}
+
+.button:hover .sub-menu {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.sub-button-menu {
+    padding: 33% 0;
+}
+
+.sub-button-menu img {
+    width: 25vw;
+}
+
+.sub-button-menu.img {
+    padding: 0;
+    margin: 0;
+}
+
+.poster {
+    width: 100vw;
+}
+
+.telo-img-img {
+    width: 33vw;
+}
+
+.telo2 {
+    display: flex;
+    gap: 10%;
+    margin: 10%;
+}
+
+.footer {
+    display: flex;
+    padding: 0 10%;
+    gap: 10%;
+    background-color: #dca7;
+    font-style: italic;
+
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover {
+    color: #640;
+}
+
+.telo-text {
+    font-weight: bold;
+    text-align: justify;
+}
