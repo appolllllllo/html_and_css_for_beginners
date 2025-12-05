@@ -1,0 +1,16 @@
+* {
+    margin: 0;
+}
+
+div {
+    background-color:#446;
+    width:100vh;
+    height:100vh;
+    margin: auto;  
+    background-image: url(https://donperegnon.ru/webtactics/3-8/pepe.png);
+    background-size: contain;
+    background-position: center;
+    background-origin: border-box;
+    border:2vh solid #000;
+    box-sizing: border-box;
+}

@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+}
+
+.first {  
+  margin: auto;
+  height: 600px;
+  background-color: #fff;
+  background-image: url(https://donperegnon.ru/webtactics/3-8/sad_pepe.png);
+  background-size: 125vh;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.second {  
+  height: 600px;
+  background-image: url(https://donperegnon.ru/webtactics/3-8/fun_pepe.png);
+  height: 800px;
+  background-color: #fff;  
+  background-size: 125vh;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+}

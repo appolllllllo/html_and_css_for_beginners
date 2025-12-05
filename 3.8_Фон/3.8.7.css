@@ -1,0 +1,21 @@
+body {
+  margin: 0;
+  background-color: #234;
+  text-align: center;
+  font-family: "Oi", serif;
+}
+
+div {
+  display: inline-block;
+  margin: 30px;
+  font-size: 6em;
+  text-transform: uppercase;
+  line-height: 1;
+  background-image: url("https://donperegnon.ru/webtactics/3-8/gepard.jpeg");
+  background-size: 10em;
+  background-position: 0 -100px;
+  background-attachment: fixed;
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+}
